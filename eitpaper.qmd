@@ -1,13 +1,36 @@
 ---
+
+
 title: "My first quarto project"
 # heading
 ## heading 2
 ---
+# name of the paper
+## introduction
+
+### diagram
+This is **bold text**, this is *italic text*, and this is ~~strikethrough~~.
+
+
+
 ```{python}
 # this is a code chunk/block that executes python code
 a = 1 + 3
 print(a)
 ```
+
+An inline equation: $E = mc^2$
+
+A block equation:
+
+$$
+\int_0^1 x^2 \, dx = \frac{1}{3}
+$$
+
+Another equation:
+
+$E = mc^2$
+
 ## Quarto
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
