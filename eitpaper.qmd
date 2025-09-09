@@ -88,18 +88,7 @@ from plotnine.data import penguins
 ## Conclusion
 
 
-### diagram
-This is **bold text**, this is *italic text*, and this is ~~strikethrough~~.
-
-
-
-
-
-
-
-Another equation:
-
-$E = mc^2$
+## Reference
 
 ## Quarto
 
