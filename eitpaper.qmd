@@ -1,12 +1,28 @@
 ---
 
 
-title: "My first quarto project"
-# heading
-## heading 2
+title: "My first quarto paper"
+author: "Jun Yang"
+date: "Septermber 9, 2025"
+number-sections: true
+#format: pdf
+
 ---
-# name of the paper
-## introduction
+# My first quarto paper
+
+## Abstract
+The objective of the paper is ...
+
+## Introduction
+
+## Method
+
+## Results
+
+## Discussion
+
+## Conclusion
+
 
 ### diagram
 This is **bold text**, this is *italic text*, and this is ~~strikethrough~~.
