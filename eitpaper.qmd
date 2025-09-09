@@ -33,11 +33,10 @@ csl: apa.csl
 
 
 ## Introduction
-Walkability has been studied a lot. Based on optional or necessary activity, we could refer recreational walking as optional walking which are more influenced by environment. At the same time, the necessary activity refer as utility walking where walking are rarely affected by environment. 
-Safety is one of the most essential elements of walking [@alfonzo2005walk].
+Walkability has been studied a lot. Based on optional or necessary activity, we could refer recreational walking as optional walking which are more influenced by environment. At the same time, many studies show that the necessary activity refer as utility walking where walking are rarely affected by environment[@alfonzo2005walk].
 
 ## Method
-The path between 0 to 200 meters are removed and only the path longer than 200m according to previous studies  \citep{basu2022street, miranda2021desirable} are used for analysis. Gap, the previous analysis only focus the walking in general, but not separate utility walking and recreational walking. our study focus on both and comparing the difference between them and unsafety and unpleasant location. Gap2, the previous studies mainly focus on the trip between 200 meters and 1000 meters \citep{basu2022street, sevtsuk2021big} , we have longer distance.
+The path between 0 to 200 meters are removed and only the path longer than 200m according to previous studies [@basu2022street, @miranda2021desirable] are used for analysis. Gap, the previous analysis only focus the walking in general, but not separate utility walking and recreational walking. Our study focuses on both and comparing the difference between . Gap2, the previous studies mainly focus on the trip between 200 meters and 1000 meters \citep{basu2022street, sevtsuk2021big} , we have longer distance.
 Here is a @fig-mindmap shows the workflow of the research.
 
 ![mindmap](mindmap.png){#fig-mindmap}
