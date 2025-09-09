@@ -1,13 +1,11 @@
 ---
-
-
 title: "My first quarto paper"
 author: "Jun Yang"
 date: "Septermber 9, 2025"
 number-sections: true
 #format: pdf
-
 ---
+
 # My first quarto paper
 
 ## Abstract
@@ -16,7 +14,20 @@ The objective of the paper is ...
 ## Introduction
 
 ## Method
+```{mermaid}
+flowchart LR
+  A(Neighborhood level environment variables) --> B(GIS tools)
+  C(Street level environment variables ) --> D(ML algorithm)
+  E(Labels from citizens)
+  B --> F(Correlation)
+  D --> F
+  E --> F
 
+  F --> G(New models)
+  G --> {Prediction}
+  H --> I(Unknow areas) 
+  
+```
 ## Results
 
 ## Discussion
