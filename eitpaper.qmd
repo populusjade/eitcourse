@@ -1,25 +1,32 @@
 ---
-title: Walkability study
-
-author: 
-    -name: Jun Yang
+title: "Predicting Walking purposes based on multiscale envrionmental factors"
+date: 2025-09-09
+author:
+  - name: Jun Yang
+    id: jy
+    orcid: 0000-0000-0000-0000
     email: junyang@example.com
-    affiliations:
-    -id: adligja
-    name: Institute of A
-    department: Architecture
-    attributes: true
-    note: This is the first author footnote.
-abstract: |
-  This is the abstract. 
-keywords: 
-  - walkability
+    affiliation: 
+      - name: Aalto University
+        city: Espoo
+        state: Finland
+        url: www.aalto.fi
+abstract: > 
+  The characteristic theme of the works of Stone is 
+  the bridge between culture and society. ...
+keywords:
   - walking purposes
-date: "Septermber 9, 2025"
-bibliography: bibliography.bib
-
-number-sections: true
-#format: pdf
+  - envrionment variables
+license: "CC BY"
+copyright: 
+  holder: Jun Yang 
+  year: 2008
+citation: 
+  container-title: Journal of Psychoceramics
+  volume: 1
+  issue: 1
+  doi: 10.5555/12345678
+funding: "The author received no specific funding for this work."
 ---
 
 
