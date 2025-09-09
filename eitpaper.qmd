@@ -69,6 +69,7 @@ $$
 $$
 
 ## Results
+The following graph shows the results of the study. 
 ```{python}
 #| label: hello-block-python
 #| echo: false
@@ -82,8 +83,9 @@ from plotnine.data import penguins
     + geom_point()
 )
 ```
+From diagram, we can see that the factors affect the recreational walking are different from the factors affecting the utilitarian walking. 
 ## Discussion
-
+Understanding the environment based on walking purposes can help urban planners better improve road environments according to pedestrians' needs.
 ## Conclusion
 
 
