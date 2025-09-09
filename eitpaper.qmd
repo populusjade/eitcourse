@@ -1,5 +1,5 @@
 ---
-title: "Predicting Walking purposes based on multiscale envrionmental factors"
+title: "Predicting Walking purposes based on multi-scale envrionmental factors"
 date: 2025-09-09
 author:
   - name: Jun Yang
@@ -39,8 +39,8 @@ Here is a @fig-mindmap shows the workflow of the research.
 
 ```{mermaid}
 flowchart LR
-  A(Neighborhood level environment variables) --> B(GIS tools)
-  C(Street level environment variables ) --> D(ML models)
+  A(N-L variables) --> B(GIS tools)
+  C(S-L variables ) --> D(ML models)
   E(Labels from citizens)
   B --> F{Correlation}
   D --> F{Correlation}

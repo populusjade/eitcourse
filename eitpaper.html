@@ -186,16 +186,14 @@ Figure&nbsp;1: mindmap
 <p></p><figure class="figure"><p></p>
 <div>
 <pre class="mermaid mermaid-js">flowchart LR
-  A(Neighborhood level environment variables) --&gt; B(GIS tools)
-  C(Street level environment variables ) --&gt; D(ML algorithm)
+  A(N-L variables) --&gt; B(GIS tools)
+  C(S-L variables ) --&gt; D(ML models)
   E(Labels from citizens)
-  B --&gt; F(Correlation)
-  D --&gt; F
-  E --&gt; F
-
-  F --&gt; G(New models)
-  G --&gt; {Prediction}
-  H --&gt; I(Unknow areas) 
+  B --&gt; F{Correlation}
+  D --&gt; F{Correlation}
+  E --&gt; F{Correlation}
+  F --&gt; I(Building models)
+  I --&gt; J(Prediction for new locations)
   
 </pre>
 </div>
@@ -227,7 +225,7 @@ Figure&nbsp;1: mindmap
 <section id="diagram" class="level3">
 <h3 class="anchored" data-anchor-id="diagram">diagram</h3>
 <p>This is <strong>bold text</strong>, this is <em>italic text</em>, and this is <del>strikethrough</del>.</p>
-<div id="5f291d3e" class="cell" data-execution_count="2">
+<div id="0ef1eb44" class="cell" data-execution_count="2">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># this is a code chunk/block that executes python code</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> <span class="dv">1</span> <span class="op">+</span> <span class="dv">3</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(a)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
