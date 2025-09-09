@@ -26,12 +26,15 @@ citation:
   issue: 1
   doi: 000/000
 funding: "The author received no specific funding for this work."
+bibliography: references.bib
+csl: apa.csl
 ---
 
 
 
 ## Introduction
-Walking is the most basic mobility mode for humans. 
+Walkability has been studied a lot. Based on optional or necessary activity, we could refer recreational walking as optional walking which are more influenced by environment. At the same time, the necessary activity refer as utility walking where walking are rarely affected by environment. 
+Safety is one of the most essential elements of walking [@alfonzo2005walk].
 
 ## Method
 Here is a @fig-mindmap shows the workflow of the research.
