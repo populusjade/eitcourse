@@ -27,7 +27,7 @@ citation:
   doi: 000/000
 funding: "The author received no specific funding for this work."
 bibliography: references.bib
-csl: apa.csl
+#csl: apa.csl
 ---
 
 
