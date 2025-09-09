@@ -12,27 +12,26 @@ author:
         state: Finland
         url: www.aalto.fi
 abstract: > 
-  The characteristic theme of the works of Stone is 
-  the bridge between culture and society. ...
+  This paper focus on understanding the factors which influence the different walking purposes.
 keywords:
   - walking purposes
   - envrionment variables
 license: "CC BY"
 copyright: 
   holder: Jun Yang 
-  year: 2008
+  year: 2025
 citation: 
-  container-title: Journal of Psychoceramics
+  container-title: Journal 
   volume: 1
   issue: 1
-  doi: 10.5555/12345678
+  doi: 000/000
 funding: "The author received no specific funding for this work."
 ---
 
 
 
 ## Introduction
-
+Walking is the most basic mobility mode for humans. 
 ## Method
 Here is a @fig-mindmap shows the workflow of the research.
 
@@ -41,19 +40,29 @@ Here is a @fig-mindmap shows the workflow of the research.
 ```{mermaid}
 flowchart LR
   A(Neighborhood level environment variables) --> B(GIS tools)
-  C(Street level environment variables ) --> D(ML algorithm)
+  C(Street level environment variables ) --> D(ML models)
   E(Labels from citizens)
-  B --> F(Correlation)
-  D --> F
-  E --> F
-
-  F --> G(New models)
-  G --> {Prediction}
-  H --> I(Unknow areas) 
+  B --> F{Correlation}
+  D --> F{Correlation}
+  E --> F{Correlation}
+  F --> I(Building models)
+  I --> J(Prediction for new locations)
   
 ```
 ## Results
-
+```{python}
+#| label: hello-block-python
+#| echo: false
+from plotnine import *
+from plotnine.data import penguins
+(
+    ggplot(
+      data=penguins,
+      mapping=aes(x="flipper_length_mm", y="body_mass_g")
+    )
+    + geom_point()
+)
+```
 ## Discussion
 
 ## Conclusion
