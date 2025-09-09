@@ -1,19 +1,36 @@
 ---
-title: "My first quarto paper"
-author: "Jun Yang"
+title: Walkability study
+
+author: 
+    -name: Jun Yang
+    email: junyang@example.com
+    affiliations:
+    -id: adligja
+    name: Institute of A
+    department: Architecture
+    attributes: true
+    note: This is the first author footnote.
+abstract: |
+  This is the abstract. 
+keywords: 
+  - walkability
+  - walking purposes
 date: "Septermber 9, 2025"
+bibliography: bibliography.bib
+
 number-sections: true
 #format: pdf
 ---
 
-# My first quarto paper
 
-## Abstract
-The objective of the paper is ...
 
 ## Introduction
 
 ## Method
+Here is a @fig-mindmap shows the workflow of the research.
+
+![mindmap](mindmap.png){#fig-mindmap}
+
 ```{mermaid}
 flowchart LR
   A(Neighborhood level environment variables) --> B(GIS tools)
