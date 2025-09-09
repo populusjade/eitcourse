@@ -87,7 +87,9 @@ From diagram, we can see that the factors affect the recreational walking are di
 ## Discussion
 Understanding the environment based on walking purposes can help urban planners better improve road environments according to pedestrians' needs.
 ## Conclusion
+This is the conclusion
 
+## Acknowledgements
 
 ## Reference
 
