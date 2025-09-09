@@ -32,6 +32,7 @@ funding: "The author received no specific funding for this work."
 
 ## Introduction
 Walking is the most basic mobility mode for humans. 
+
 ## Method
 Here is a @fig-mindmap shows the workflow of the research.
 
@@ -49,6 +50,21 @@ flowchart LR
   I --> J(Prediction for new locations)
   
 ```
+
+```{python}
+# this is a code chunk/block that executes python code
+a = 1 + 3
+print(a)
+```
+
+An inline equation: $E = mc^2$
+
+A block equation:
+
+$$
+\int_0^1 x^2 \, dx = \frac{1}{3}
+$$
+
 ## Results
 ```{python}
 #| label: hello-block-python
@@ -73,19 +89,9 @@ This is **bold text**, this is *italic text*, and this is ~~strikethrough~~.
 
 
 
-```{python}
-# this is a code chunk/block that executes python code
-a = 1 + 3
-print(a)
-```
 
-An inline equation: $E = mc^2$
 
-A block equation:
 
-$$
-\int_0^1 x^2 \, dx = \frac{1}{3}
-$$
 
 Another equation:
 
